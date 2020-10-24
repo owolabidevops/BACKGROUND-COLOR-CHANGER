@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body style="text-align: center; border: 2 blue; background:brown">
+        <h1>BACKGROUND</h1>
+        <h1>COLOR CHANGER</h1>
+        <button >change color</button>
+
+        <script>
+         const button=document.querySelector("button");
+         button.addEventListener("click",()=> {
+             const curcolor= document.body.style.backgroundColor;
+             if(curcolor==='brown')
+             document.body.style.backgroundColor='blue';
+             else
+             document.body.style.backgroundColor='brown';
+
+            }) ; 
+        </script>
+    </body>
+</html>
